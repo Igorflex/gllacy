@@ -905,13 +905,13 @@ p, h1, h2 {
   margin-bottom: 10px;
 }
 .shop-features__item div.features-img__wrapper {
-  width: 49px;
-  height: 49px;
+  min-width: 49px;
+  min-height: 49px;
 }
 .shop-features__item img {
   display: block;
-  min-width: 49px;
-  min-height: 49px;
+  width: 49px;
+  height: 49px;
 }
 .shop-features__item p {
   padding-top: 12px;
