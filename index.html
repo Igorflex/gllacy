@@ -301,7 +301,7 @@
 		$(document).ready(function() {
 			var overlayItem = $('.overlay');
 			vph = $(document).height();
-			overlayItem.css('height', vph);
+			overlayItem.css('height', vph+'vh');
 
 			$(window).resize(function() {
 				vpw = $(window).width();
@@ -317,8 +317,6 @@
 				overlayItem.fadeIn(500);
 			});
 		});//end ready
-
-		
 	</script>
 </body>
 </html>
