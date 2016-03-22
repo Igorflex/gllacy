@@ -300,14 +300,14 @@
 	<script>
 		$(document).ready(function() {
 			var overlayItem = $('.overlay');
-			vph = $(document).height();
-			overlayItem.css('height', vph+'vh');
+			// vph = $(document).height();
+			// overlayItem.css('height', vph+'vh');
 
-			$(window).resize(function() {
-				vpw = $(window).width();
-				vph = $(document).height();
-				overlayItem.css('height', vph);
-			});//end resize
+			// $(window).resize(function() {
+			// 	vpw = $(window).width();
+			// 	vph = $(document).height();
+			// 	overlayItem.css('height', vph);
+			// });//end resize
 			
 			overlayItem.find('.icon-cancel').click(function() {
 				overlayItem.fadeOut(500);

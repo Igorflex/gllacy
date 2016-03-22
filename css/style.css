@@ -1667,6 +1667,7 @@ p, h1, h2 {
 }
 
 .overlay {
+  height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
